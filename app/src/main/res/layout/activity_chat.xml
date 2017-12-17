@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/blanco"
+    tools:context="com.example.pc01.usersgerni.ChatActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/hi"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:id="@+id/ver" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp" />
+
+        <Button
+            android:background="@drawable/lap"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:id="@+id/publicar" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="20dp" />
+        <Button
+            android:background="@drawable/ex3"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:id="@+id/salir" />
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="20dp" />
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/tuerca"
+            android:id="@+id/confi"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@drawable/us"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/fotPer"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:text="@string/b"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

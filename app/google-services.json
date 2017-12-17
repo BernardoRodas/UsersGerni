@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "27509061043",
+    "firebase_url": "https://gerrni-2fec2.firebaseio.com",
+    "project_id": "gerrni-2fec2",
+    "storage_bucket": "gerrni-2fec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27509061043:android:71796861b2ade8a6",
+        "android_client_info": {
+          "package_name": "com.example.pc01.usersgerni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27509061043-77botge8iqiqqfgkm48df5qnai8qg21c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKNqmZPcJbDlvjPtGphmiXzDf9otMH35s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

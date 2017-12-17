@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UsersGerni</string>
+    <string name="b">¡Welcome!</string>
+    <string name="mail">E-mail</string>
+    <string name="pass">Password</string>
+    <string name="val">(Valid and registered)</string>
+    <string name="min">(min 6 character)</string>
+    <string name="gerrni">¿Do not you have an account yet?</string>
+    <string name="b1">Log in</string>
+    <string name="b2">Sign up</string>
+    <string name="u1">User</string>
+</resources>
